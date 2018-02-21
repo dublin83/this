@@ -14,7 +14,7 @@ const store = createStore<StoreState>(enthusiasm, {
 
 ReactDOM.render(
   <Provider store={store}>
-    <Hockey name={'Mellor'}/>
+    <Hockey name={'Michael'}/>
   </Provider>,
   document.getElementById('root') as HTMLElement
 );
